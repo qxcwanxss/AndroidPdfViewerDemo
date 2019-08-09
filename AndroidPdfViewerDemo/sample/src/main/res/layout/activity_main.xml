@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#eeeeee">
+
+	<RelativeLayout
+		android:id="@+id/rl_top"
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:layout_alignParentTop="true"
+		android:background="#03a9f5">
+
+		<Button
+			android:id="@+id/btn_back"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:background="@drawable/shape_button"
+			android:text="返回"
+			android:textColor="#ffffff"
+			android:textSize="18sp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="10dp"
+			android:layout_marginLeft="10dp"/>
+	</RelativeLayout>
+
+	<Button
+		android:id="@+id/btn_file"
+		android:layout_width="200dp"
+		android:layout_height="50dp"
+		android:layout_centerInParent="true"
+		android:text="选择SD卡 PDF文件"
+		android:textColor="#ffffff"
+		android:background="@drawable/shape_blue_button"
+		android:textSize="16sp"/>
+
+	<Button
+		android:id="@+id/btn_assets"
+		android:layout_width="200dp"
+		android:layout_height="50dp"
+		android:layout_centerHorizontal="true"
+		android:text="使用Assets PDF文件"
+		android:layout_below="@+id/btn_file"
+		android:textSize="16sp"
+		android:textColor="#ffffff"
+		android:background="@drawable/shape_blue_button"
+		android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
